@@ -8,12 +8,13 @@
 int main(void)
 {
 	unsigned long int multi3, multi5, sum;
+	int i;
 
 	multi3 = 0;
 	multi5 = 0;
 	sum = 0;
 
-	for (int i = 0; i < 1024; ++i)
+	for (i = 0; i < 1024; ++i)
 	{
 		if ((i % 3) == 0)
 		{
