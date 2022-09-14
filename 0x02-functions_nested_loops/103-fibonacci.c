@@ -7,25 +7,20 @@
  */
 int main(void)
 {
-	int i;
-	unsigned long int x, y, next, sum;
+	unsigned long int x = 0, y = 1, z = 0, sum = 0;
 
-	x = 1;
-	y = 2;
-	sum = 0;
-
-	for (i = 1; i <= 33; ++i)
+	while (z <= 4000000)
 	{
-		if (x < 4000000 && (y % 2 == 0))
-		{
-			sum = sum + x;
-		}
-		next = x + y;
-		x = y;
-		y = next;
+	z = x + y;
+	x = y;
+	y = z;
+
+	if ((x % 2) == 0)
+		sum += x;
+
 	}
 
-	printf("%lu\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
