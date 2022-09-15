@@ -14,3 +14,5 @@
 |8-print_square.c| prints a square|
 |9-fizz_buzz.c|FizzBuzz from 1-100|
 |10-print_triangle.c|prints a triangle|
+|100-prime_factor.c|prints the largest prime factor of the number 612852475143|
+|101-print_number.c|prints an integer.|
