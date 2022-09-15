@@ -12,25 +12,20 @@ void print_triangle(int size)
 {
 	int a, b;
 
-	a = 1;
-
-	while (a <= size && size > 0)
+	if (size > 0)
 	{
-		b = 0;
-		while (b < (size - 1))
+		for (a = 1; a <= size; a++)
 		{
-			_putchar(' ');
-			b++;
+			for ((b = size - a); b > 0; b--)
+				_putchar(' ');
+			for  (b = 0; b < a; b++)
+				_putchar('#');
+
+			if (a == size)
+				continue;
+
+			_putchar('\n');
 		}
-		b = 0;
-		while (b < a)
-		{
-			_putchar('#');
-			b++;
-		}
-		_putchar('\n');
-		a++;
 	}
-	if (a == 1)
-		_putchar('\n');
+	_putchar('\n');
 }
