@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcopy - copies a string
+ * _strcpy - copies a string
  *
  * @dest: destination parameter
  * @src: source parameter
@@ -9,7 +9,7 @@
  * Return: dest
  */
 
-char *_strcopy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
