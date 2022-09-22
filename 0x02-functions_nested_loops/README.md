@@ -1,4 +1,4 @@
-# Shell Init Files, Expansions and Variables Project
+# Functions and Nested Loops Project
 ## What Each Script is Doing
 
 |Script Name       | Script Function     |
