@@ -13,3 +13,5 @@
 |7-puts_half.c|prints half of a string|
 |8-print_array.c|n elements of an array of integers|
 |9-strcpy.c|copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest|
+|100-atoi.c|converts a string to an integer|
+|101-keygen.c|generates random valid passwords for the program 101-crackme.|
