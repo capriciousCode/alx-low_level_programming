@@ -22,18 +22,19 @@ char *_strdup(char *str)
 
 	if (newString == NULL)
 		return (NULL);
-
 	while (*str)
+
 		newString[i++] = *str++;
+
 	newString[i] = '\0';
 
 	return (newString);
 }
 
 /**
- * _strlen - returns length of a string
+ * _strlen - returns length of string
  *
- * @s: The string
+ * @s: string
  *
  * Return: length of s
  */
@@ -44,5 +45,6 @@ int _strlen(char *s)
 
 	for (i = 0; s[i] != 0; i++)
 		;
+
 	return (i);
 }
